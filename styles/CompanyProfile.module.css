@@ -4,6 +4,8 @@
   position: absolute;
   margin-top: 114px;
   background-color: #ffff;
+
+  
 }
 .headingContainer {
   display: flex;
@@ -16,7 +18,8 @@
   display: flex;
   align-items: center;
   /* 🔴 Debug in inspect element for correct measurements */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+
 
 }
 .primaryHeading {
@@ -33,14 +36,17 @@
 .fullStop {
   color: var(--fc-primary-color);
 }
-
+.imageContainer{
+  margin-left: 22.125rem;
+}
 
 .content {
   font-weight: var(--fw-regular);
   font-size: var(--fs-body);
   width: 38.1875rem;
   height: 7.875rem;
-  line-height: 24px;
+  line-height: 1.5rem;
+  margin-left: 2.25rem;
   
   
   

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import CompanyProfile from "../Components/CompanyProfile/CompanyProfile";
 import HeroSection from "../Components/HeroSection/HeroSection";
+import DreamBig from "../Components/DreamBig/DreamBig";
 export default function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <CompanyProfile />
+      <DreamBig/>
     </div>
   );
 }

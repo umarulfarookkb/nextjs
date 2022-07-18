@@ -15,8 +15,8 @@ const CompanyProfile = () => {
           <Image
             src="/companyimage.png"
             alt="companyPhoto"
-            height="327em"
-            width="566em"
+            height="327px"
+            width="566px"
           />
         </div>
         <div className={styles.content}>
