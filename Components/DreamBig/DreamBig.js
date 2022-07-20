@@ -10,11 +10,11 @@ const DreamBig = () => {
         </h2>
       </div>
       <div className={styles.cards}>
-        <Card/>
-        <div className={styles.shadow}>
-          
-        </div><Card/>
-        <Card/>
+        <Card image={"/icon.png"} head={"Free shipping"} content={"Enjoy Order in a hand using the fresness of groceries"}/>
+        <div className={styles.shadow}> 
+        </div>
+        <Card image={"/icon1.png"} head={"15 days returns"} content={"Order in a handy way using the freshness of the groceries."}/>
+        <Card image={"/icon2.png"} head={"Secure checkout"} content={"If you get rotten items - return immediately to us."}/>
       </div>
     </section>
   );

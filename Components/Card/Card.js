@@ -1,22 +1,22 @@
 import styles from "../../styles/Card.module.css";
 import Image from "next/image";
-const Card = () => {
+const Card = (props) => {
   return (
     <div className={styles.cardContainer}>
 
       <div className={styles.icon}>
       <Image
-            src="/icon.png"
+            src={props.image}
             alt="icon"
             height="150px"
             width="150px"
           />
       </div>
       <div className={styles.cardHead}>
-        <h2>Free shipping</h2>
+        <h2>{props.head}</h2>
       </div>
       <div className={styles.cardContent}>
-        <p>Enjoy Order in a hand using the fresness of groceries</p>
+        <p>{props.content}</p>
       </div>
     </div>
 
