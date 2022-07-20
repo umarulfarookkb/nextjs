@@ -8,8 +8,8 @@ const Card = () => {
       <Image
             src="/icon.png"
             alt="icon"
-            height="130px"
-            width="130px"
+            height="150px"
+            width="150px"
           />
       </div>
       <div className={styles.cardHead}>

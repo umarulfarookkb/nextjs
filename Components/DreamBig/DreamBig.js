@@ -11,7 +11,9 @@ const DreamBig = () => {
       </div>
       <div className={styles.cards}>
         <Card/>
-        <Card/>
+        <div className={styles.shadow}>
+          
+        </div><Card/>
         <Card/>
       </div>
     </section>

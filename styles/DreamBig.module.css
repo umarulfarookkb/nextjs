@@ -33,6 +33,14 @@
     justify-content: center;
     gap:3.25rem;
     margin-top: 7.875rem;
-    
-
+  }
+  .shadow{
+    position: absolute;
+    width: 300px;
+    height: 334px;
+    left: calc(50% - 310px/2 + 31.8px);
+    top: calc(47% - 334.16px/2 + 112.31px);
+    background: #F79901;
+    border-radius: 12px;
+    transform: rotate(-3deg);
   }
