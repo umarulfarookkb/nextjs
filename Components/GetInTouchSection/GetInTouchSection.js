@@ -12,10 +12,11 @@ const GetInTouchSection = () => {
       <div className={styles.container}>
         <form className={styles.form} action="#">
           <div className={styles.inputContainer}>
+            <p className={styles.formHead}>Type your Email Address</p>
             <input
               type="email"
               name="email"
-              placeholder="Type your Email Address"
+              placeholder="ishiguromasakazu236@gmail.com"
               className={styles.formField}
             />
             <button type="submit" className={styles.button}>
